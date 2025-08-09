@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trò chơi Cờ Caro"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:textColor="@android:color/black"/>
+
+    <Switch
+        android:id="@+id/switchAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="Chơi với máy" />
+
+    <Button
+        android:id="@+id/btn3x3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chế độ 3x3"/>
+
+    <Button
+        android:id="@+id/btn5x5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Chế độ 5x5"/>
+
+    <Button
+        android:id="@+id/btn10x10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Chế độ 10x10"/>
+
+    <Button
+        android:id="@+id/btnCustomMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tùy chọn size bàn cờ"/>
+</LinearLayout>

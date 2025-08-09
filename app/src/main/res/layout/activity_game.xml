@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Nút quay lại (chiếm 15% chiều cao màn hình) -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_media_previous"
+        android:contentDescription="Quay lại"/>
+
+    <!-- Bàn cờ (chiếm 85% chiều cao màn hình) -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:background="@android:color/darker_gray"
+        android:useDefaultMargins="true"
+        android:orientation="horizontal"
+        android:alignmentMode="alignMargins"
+        android:layoutMode="opticalBounds"/>
+</LinearLayout>
